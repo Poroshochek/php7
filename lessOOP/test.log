@@ -1,0 +1,8 @@
+[2017-11-08 08:38:39 test] Some message
+[2017-11-08 08:38:39 test] [at index.php line 29] Debug message
+[2017-11-13 08:43:43 test.log] Some message
+[2017-11-13 08:43:43 test.log] [at index.php line 23] Debug message
+[2017-11-14 08:30:07 test.log] Some message
+[2017-11-14 08:30:07 test.log] [at index.php line 23] Debug message
+[2017-11-14 08:35:36 test.log] Some message
+[2017-11-14 08:35:36 test.log] [at index.php line 23] Debug message
