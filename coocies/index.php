@@ -1,23 +1,7 @@
 <?php
+$counter = isset($_COOKIE['counter']) ? $_COOKIE['counter'] : 0;
+$counter++;
+setcookie("counter", $counter, 0x7FFFFFFF);
+echo "You are only $counter visited this site!";
 
 
-
-?>
-
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-
-<?php
-
-?>
-
-</body>
-</html>
